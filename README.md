@@ -6,7 +6,7 @@ class SoftwareDeveloper:
     def __init__(self):
         self.name = "Remi S"
         self.role = "Software Developer"
-        self.language_spoken = ["jp_JP", "en_US"]
+        self.language_spoken = ["jp_JP", "en_US", "es_MX"]
         self.technologies = ["TypeScript", "C#", "Java", "Go", "C++", "Rust",
                              "Python", "express", "React", "OpenCV", "Keras"]
 
@@ -14,7 +14,7 @@ class SoftwareDeveloper:
         print("Thanks for dropping by, hope you find some of my work interesting!")
 
     def say_other(self):
-        print("I'm a hobbyist software developer that loves image processing and emojis! I also have a passion for NLP and CNNs! :)")
+        print("I'm a student and software developer with an interest in a lot of different things. I particularly enjoy working with data, image processing, music, AI/ML, and whatever interests me in that moment.")
 
 
 me = SoftwareDeveloper()
