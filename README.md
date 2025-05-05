@@ -8,7 +8,7 @@ class SoftwareDeveloper:
         self.role = "Student, Software Developer"
         self.language_spoken = ["jp_JP", "en_US", "es_MX"]
         self.technologies = ["TypeScript", "C#", "Java", "Go", "C++", "Rust",
-                             "Python", "express", "React", "OpenCV", "Keras"]
+                             "Python", "express", "React", "OpenCV", "Keras", "pandas", "NumPy"]
 
     def say_hi(self):
         print("Thanks for dropping by, hope you find some of my work interesting!")
